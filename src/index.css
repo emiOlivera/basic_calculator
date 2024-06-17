@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+
+.app{
+    background-color: white;
+    width: 220px;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 5px;
+    background-color: rgba(0, 195, 255, 0.475);
+    border: rgb(255, 60, 0) 3px solid;
+}
+
+.pantalla{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.segunda-pantalla{
+    border: rgb(255, 60, 0) 2px solid;
+    width: 87.95%;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 30px;
+    border-bottom: none;
+    font-size: 15px;
+    text-align: start;
+    padding-left: 5px;  
+    background-color: white;
+    color: rgba(0, 0, 0, 0.433);
+}
+
+.visor{
+    width: 90%;
+    border: rgb(255, 60, 0) 2px solid;
+    margin: 0 auto;
+    height: 50px;
+    border-top: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    margin: 8px auto;
+}
+
+.head{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    margin: 5px auto;
+}
+
+.head button{
+    width: 40%;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 60, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+}
+
+.main{
+    display: flex;
+    width: 95%;
+    height: 120px;
+}
+
+.numeros{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    width: 95%;
+    height: 100%;
+    margin: 10px auto;
+}
+
+.numeros button{
+    width: 90%;
+    height: 34px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 60, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: rgb(255, 25, 0);
+}
